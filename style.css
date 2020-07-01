@@ -1,0 +1,22 @@
+body{
+text-align: center;
+}
+
+#question1, #question2, #results {
+  display:none;
+  width:750px;
+}
+
+#quizarea
+{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height:400px;
+  width:800px;
+  background-color: #ccc;
+  border-radius: 3px;
+}
