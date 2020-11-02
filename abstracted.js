@@ -15,7 +15,7 @@ function hideElement(id) {
  * @param {string} id the id of the element to be shown
  */
 function showElement(id){
-  document.getElementById("ifYes").style.display = "block";
+  document.getElementById(id).style.display = "block";
 }
 
 /**
