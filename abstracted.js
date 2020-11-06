@@ -15,7 +15,7 @@ function hideElement(id) {
  * @param {string} id the id of the element to be shown
  */
 function showElement(id){
-  document.getElementById("ifYes").style.display = "block";
+  document.getElementById(id).style.display = "block";
 }
 
 /**
@@ -35,7 +35,7 @@ function nextQuestion(questionNo){
 function getRadioVal(form, name) {
   var val;
   // get list of radio buttons with specified name
-  var radios = form.elements[name];
+  var radios = document.getElementsByName(name);
   
   // loop through list of radio buttons
   for (var i=0, len=radios.length; i<len; i++) {
