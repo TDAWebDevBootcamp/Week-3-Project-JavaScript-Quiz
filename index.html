@@ -14,39 +14,40 @@
       <div id="quizarea">
         <div id="title" >
           <div class="col">
-            <h1 class="text-center">What is your learning style?</h1>
+            <h1 class="text-center">Life In UK</h1>
             <br />
           </div>
         </div>
+       
         <div id="questionarea">
-          
-            <!--intro content-->
+         
+           <!--intro content-->
             <div id="intro" class="justify-content-center mx-auto">
-              <h2 class="text-center">Find our your learning style</h2>
+              <h2 class="text-center">Find Your life in UK</h2>
               <br /><br />
-              <p class="text-center">Answer the questions to find out your learning style</p><br /><br />
+              <p class="text-center">Answer the questions to find out your life</p><br /><br />
               <input type="button" value="Start Quiz"class="btn btn-success text-center" onclick="startQuiz()"/>
             </div>
             <form id="quizform">
             <!--question 1-->
             <div id="question1" class="mx-auto">
               <div class="row justify-content-center" >
-                  <h2 class="text-center">When you study for a test would you rather?</h2>
+                  <h2 class="text-center">Which of these is a famous classical music event in the UK?</h2>
               </div>
               <div class="row">
                 &nbsp;
               </div>
               <div class="row justify-content-center">
                 <input type="radio" name="quest1" id="a1" value=1 />
-                <label for="a1" class="text-center">a) read notes, read headings in a book, and look at diagrams and illustrations</label>
+                <label for="a1" class="text-center">a) The Proms</label>
               </div>
               <div class="row justify-content-center">
                 <input type="radio" name="quest1" id="a2" value=1 />
-                <label for="a2">b) have someone ask you questions, or repeat facts silently to yourself.</label>
+                <label for="a2">b)T in the Park </label>
               </div>
               <div class="row justify-content-center">
                 <input type="radio" name="quest1" id="a3" value=3  />
-                <label for="a3">c) write things out on index cards and make models or diagrams.</label>
+                <label for="a3">c)Creamfields </label>
               </div>
               <div class="row" class="justify-content-center">
                 <input type="button" value="Next"class="btn btn-success mx-auto" onclick="question2()"/>
@@ -56,38 +57,108 @@
             <!--question 2-->
             <div id="question2">
               <div class="row justify-content-center">
-                  <h2 class="text-center">Which of these do you do when you listen to music?</h2>
+                  <h2 class="text-center">Which of the following is part of the UK?</h2>
               </div>
               <div class="row">
                 &nbsp;
               </div>
               <div class="row justify-content-center">
                 <input type="radio" name="quest2" id="a1" value=1 />
-                <label for="a1" class="text-center">a) daydream (see things that go with the music) </label>
+                <label for="a1" class="text-center">a)Channel Islands </label>
               </div>
               <div class="row justify-content-center">
                 <input type="radio" name="quest2" id="a2" value=2 />
-                <label for="a2">b) hum along</label>
+                <label for="a2">b)Wales </label>
               </div>
               <div class="row justify-content-center">
                 <input type="radio" name="quest2" id="a2" value=3 />
-                <label for="a2">c) move with the music, tap your foot, etc.</label>
+                <label for="a3">c)St Helena </label>
               </div>
               <div class="row justify-content-center">
-                <input type="button" value="Results"class="btn btn-success mx-auto" onclick="results()"/>
+                <input type="button" value="Next"class="btn btn-success mx-auto" onclick="question3()"/>
+              </div>
+            </div>
+            <!--question 3-->
+            <div id="question3">
+              <div class="row justify-content-center">
+                  <h2 class="text-center">When is St David’s day?</h2>
+              </div>
+              <div class="row">
+                &nbsp;th
+              </div>
+              <div class="row justify-content-center">
+                <input type="radio" name="quest3" id="a1" value=1 />
+                <label for="a1" class="text-center">a)30th of November </label>
+              </div>
+              <div class="row justify-content-center">
+                <input type="radio" name="quest3" id="a2" value=2 />
+                <label for="a2">b)17th of March </label>
+              </div>
+              <div class="row justify-content-center">
+                <input type="radio" name="quest3" id="a2" value=3 />
+                <label for="a3">c)1st of March </label>
+              </div>
+              <div class="row justify-content-center">
+                <input type="button" value="Next"class="btn btn-success mx-auto" onclick="question4()"/>
+              </div>
+            </div>
+             <!--question 4-->
+             <div id="question4">
+              <div class="row justify-content-center">
+                  <h2 class="text-center">When is Christmas Eve?</h2>
+              </div>
+              <div class="row">
+                &nbsp;
+              </div>
+              <div class="row justify-content-center">
+                <input type="radio" name="quest4" id="a1" value=1 />
+                <label for="a1" class="text-center">a)26th of December </label>
+              </div>
+              <div class="row justify-content-center">
+                <input type="radio" name="quest4" id="a2" value=2 />
+                <label for="a2">b)24th of December </label>
+              </div>
+              <div class="row justify-content-center">
+                <input type="radio" name="quest4" id="a2" value=3 />
+                <label for="a3">c)25th of December </label>
+              </div>
+              <div class="row justify-content-center">
+                <input type="button" value="Next"class="btn btn-success mx-auto" onclick="question5()"/>
+              </div>
+            </div>
+            <!--question 5-->
+            <div id="question5">
+              <div class="row justify-content-center">
+                  <h2 class="text-center">Who built the Tower of London?</h2>
+              </div>
+              <div class="row">
+                &nbsp;
+              </div>
+              <div class="row justify-content-center">
+                <input type="radio" name="quest5" id="a1" value=1 />
+                <label for="a1" class="text-center">a)Henry VIII</label>
+              </div>
+              <div class="row justify-content-center">
+                <input type="radio" name="quest5" id="a2" value=2 />
+                <label for="a2">b)William the Conqueror</label>
+              </div>
+              <div class="row justify-content-center">
+                <input type="radio" name="quest5" id="a2" value=3 />
+                <label for="a2">c)Oliver Cromwell</label>
+              </div>
+              <div class="row justify-content-center">
+                <input type="button" value="results"class="btn btn-success mx-auto" onclick="results()"/>
               </div>
             </div>
             </form>
             <!--Results-->
             <div id="results" class="justify-content-center mx-auto">
-              <h2 class="text-center">Your Learning Style Result:</h2>
+              <h2 class="text-center">Your life in uk result:</h2>
               <br /><br />
               <p class="text-center" id="result"></p>
+              
             </div>
-
-
-
-        </div>
+         </div>
       </div>
     </div>
     <!-- link to external JavaScript-->
