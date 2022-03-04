@@ -1,10 +1,15 @@
 body{
 text-align: center;
+
 }
 
-#question1, #question2, #results {
+#question1, #question2,#question3, #question4,#question5, #results {
   display:none;
   width:750px;
+  background-color: aqua;
+   background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 #quizarea
@@ -17,6 +22,6 @@ text-align: center;
   left: 0;
   height:400px;
   width:800px;
-  background-color: #ccc;
-  border-radius: 3px;
+  background-color: aqua;
+   border-radius: 3px;
 }

@@ -1,8 +1,7 @@
 /**
  * hides the element of given id
  * 
- * @author Neil Bizzell
- * @param {string} id the name of the element to be hidden
+* @param {string} id the name of the element to be hidden
  */
 function hideElement(id) {
   document.getElementById(id).style.display = "none";
@@ -11,7 +10,6 @@ function hideElement(id) {
 /**
  * shows the element of given id
  * 
- * @author Neil Bizzell
  * @param {string} id the id of the element to be shown
  */
 function showElement(id){
@@ -21,7 +19,6 @@ function showElement(id){
 /**
  * hides current question and moves to next question 
  *  
- * @author Neil Bizzell
  * @param {number} question the number of the current question 
  */
 
